@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboard</title>
+  <title>Ultra Linking</title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -13,13 +13,27 @@
     $( "#dialog" ).dialog();
   } );
   </script>
+  
+  <script language="javascript" type="text/javascript">
+
+function popitup(url) {
+newwindow=window.open(url,'name','height=200,width=150');
+if (window.focus) {newwindow.focus()}
+return false;
+}
+
+
+</script>
 </head>
 <body>
  
 <div id="dialog" title="Basic dialog">
-  <p>Welcome to the dashboard</p>
+  <p>Welcome to the UltraLinking</p>
 </div>
  
- 
+
+   <center><a href="https://www.google.com" onclick="return popitup('popupex.html')">Open Secure Search</a></center>
+  
+  
 </body>
 </html>
